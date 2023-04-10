@@ -1,0 +1,42 @@
+*{
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.nav .container .ul .li a{
+    text-decoration: none;
+    align-items: inherit;
+    display: flex;
+    flex-direction: inherit;
+    flex-wrap: inherit;
+    height: 100%;
+    justify-content: inherit;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  
+  
+    
+    
+}
+nav{
+    display: flex;
+    display: inline;
+  
+}
+.pic{
+    opacity: 90%;
+}
+.pic p{
+    font-size: 5em;
+    
+}
+p:hover {
+    transition: all;
+    color: red;
+    /* background-color: black; */
+    transition-duration: 1s;
+    
+}
