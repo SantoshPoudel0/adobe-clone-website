@@ -1,69 +1,8 @@
-* {
-
-    margin: 0px;
-    padding: 0px;
-    margin: 0;
-    padding: 0;
+*{
     box-sizing: border-box;
-
+    padding: 0px;
+    margin: 0px;
 }
-
-
-
-.nav {
-    padding: 1rem;
-    display: flex;
-
-
-
-}
-
-.nav .container .ul li a {
-
-    font-size: 1.5em;
-
-
-    /* display: inline; */
-
-    text-decoration: none;
-    color: black;
-}
-
-.nav .container .ul li {
-    list-style: none;
-    padding: .5rem;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-}
-
-
-
-
-
-.pic {
-    opacity: 90%;
-}
-
-.pic p {
-    font-size: 5em;
-
-}
-
-p:hover {
-    transition: all;
+span{
     color: red;
-
-    transition-duration: 1s;
-
-}
-
-a:hover {
-
-    transition: all;
-    color: red;
-
-    transition-duration: 1s;
-
-
 }
