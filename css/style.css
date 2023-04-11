@@ -1,8 +1,70 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
-span{
+
+header .navbar {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+header .navbar .top a {
+    justify-content: space-around;
+
+}
+
+.navbar #signin a {
+    align-items: end;
+}
+
+span {
     color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+
+.top a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#signin a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.text {
+    padding: 80px;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+.pg {
+    width: 50%;
+    font-size: 9px;
+    padding: 80px;
+    margin: 10px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: blue
+}
+
+.allplan a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
 }
