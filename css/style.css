@@ -3,18 +3,21 @@
     padding: 0px;
     margin: 0px;
 }
-
-header .navbar {
+ .navbar {
     display: flex;
-    padding: 20px;
-    gap: 10px;
-    align-items: center;
+  
+ 
 
 }
-
-header .navbar .top a {
-    justify-content: space-around;
-
+.navbar ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none; 
+    padding: 0 23px;
 }
 
 .navbar #signin a {
@@ -28,12 +31,25 @@ span {
     font-size: 1.5em;
 }
 
-
+.top{
+    justify-content: flex-end;
+  
+    margin: 0 200px;
+}
 
 .top a {
     text-decoration: none;
     color: black;
+    gap: 10px;
+ 
 
+}
+.top ul li a{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-around; */
+    text-align: center;
+    /* justify-content: space-around; */
 }
 
 #signin a {
@@ -67,4 +83,11 @@ button {
     text-decoration: none;
     font-size: 1rem;
     color: black;
+}
+
+
+.navbar ul li a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
 }
