@@ -1,93 +1,70 @@
-* {
+*{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
- .navbar {
-    display: flex;
-  
- 
 
-}
-.navbar ul{
-    height: 58px;
+.navbar{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.navbar .logo{
+    display: flex;
     align-items: center;
 }
-.navbar ul li{
-    list-style: none; 
-    padding: 0 23px;
-}
 
-.navbar #signin a {
-    align-items: end;
-}
-
-span {
-    color: red;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-.top{
-    justify-content: flex-end;
-  
-    margin: 0 200px;
-}
-
-.top a {
-    text-decoration: none;
-    color: black;
-    gap: 10px;
- 
-
-}
-.top ul li a{
+.navbar ul{
     display: flex;
+
+  
+}
+.navbar ul li{
+
     list-style: none;
-    /* justify-content: space-around; */
-    text-align: center;
-    /* justify-content: space-around; */
+    
+    
 }
-
-#signin a {
-    text-decoration: none;
-    color: black;
-
-}
-
-.text {
-    padding: 80px;
-    font-weight: bold;
-    font-size: 3rem;
-
-}
-
-.pg {
-    width: 50%;
-    font-size: 9px;
-    padding: 80px;
-    margin: 10px;
-}
-
-button {
-    border-radius: 20px;
-    padding: 10px;
-    box-sizing: border-box;
-    color: blue
-}
-
-.allplan a {
-    text-decoration: none;
-    font-size: 1rem;
-    color: black;
-}
-
-
 .navbar ul li a{
-    color: white;
-    background-color: black;
     text-decoration: none;
+    padding: 50px;
+    color: black;
+
+
+}
+.navbar .logo span{
+    font-size: 2rem;
+   color: red;
+   font-weight: bold;
+}
+
+.navbar .search{
+    display: flex;
+    align-items: center;
+}
+.navbar .search li {
+    list-style: none;
+    
+  
+}
+
+
+.navbar .search li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+/* main body css */
+
+.text{
+    font-size: 2rem;
+}
+
+.pg{
+    font-size: 2rem;
+    color: blue;
+    font-family: sans-serif;
+    font-display: 50%;
 }
